@@ -55,6 +55,29 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+input {
+  width: 180px;
+}
+
+
+.tarjeta{
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    height: 180px;
+    width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.error{
+  background-color: rgb(158, 158, 158);
+  border-radius: 10px;
+  height: 30px;
+  width: 40vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
@@ -66,4 +89,6 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+
+ 
 }

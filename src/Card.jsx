@@ -1,8 +1,13 @@
 import React from "react";
+import Form from "./Form";
+
 
 const Card = () => {
 
-    return <div>Hola, soy una tarjeta</div>;
+    return <div className="tarjeta">
+        <h2>Ingresa los datos solicitados</h2>
+         <Form/>
+         </div>;
 
 };
 
